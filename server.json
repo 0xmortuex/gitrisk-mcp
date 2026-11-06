@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.0xmortuex/gitrisk-mcp",
+  "description": "Read-only git history analytics: hotspots, who knows the code, bus factor, change coupling, release notes.",
+  "repository": {
+    "url": "https://github.com/0xmortuex/gitrisk-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "gitrisk-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
